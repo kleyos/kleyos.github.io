@@ -1,0 +1,29 @@
+/*$colorlightgrey:#797979;*/
+@font-face {
+  font-family: 'ptsans';
+  src: url(../fonts/ptsans.eot);
+  src: url(../fonts/ptsans.ttf); }
+@font-face {
+  font-family: 'ptsansbold';
+  src: url(../fonts/ptsansbold.eot);
+  src: url(../fonts/ptsansbold.ttf); }
+@font-face {
+  font-family: 'CRC65';
+  src: url(../fonts/CRC65.woff); }
+h1 {
+  font-family: "ptsansbold";
+  font-size: 4.8rem; }
+
+h3 {
+  font-family: "ptsansbold";
+  font-size: 3rem; }
+
+h4 {
+  font-family: "ptsansbold";
+  font-size: 2.3rem; }
+
+p {
+  font-family: "ptsans";
+  font-size: 2.8rem; }
+
+/*# sourceMappingURL=veriables.css.map */
