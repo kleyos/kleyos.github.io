@@ -1,0 +1,2 @@
+*{margin:0;padding:0}#field{margin:5% auto;width:350px;height:300px;background:green}#field,#root{position:relative}#ball{width:20px;height:20px;background:red;border-radius:100%}#ball,.rocket{position:absolute}.rocket{width:60px;height:10px;background:blue}#game_over,.player{position:absolute;left:38%;color:#fff;font-size:20px}#game_over{display:none;bottom:45%;left:30%;color:red}
+/*# sourceMappingURL=main.c1944659.css.map*/
