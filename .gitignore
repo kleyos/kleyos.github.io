@@ -1,0 +1,6 @@
+node_modules/*
+Items/React Pinpong/*
+Items/ReactPinpong/*
+gruntfile.js
+package.json
+.babelrc
