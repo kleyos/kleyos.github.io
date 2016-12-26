@@ -143,7 +143,6 @@ class Game extends React.Component {
 } 
 
   handleMove(e) {
-    
     const rocketW = 60,
           left = this.state.field.left;
     
@@ -164,16 +163,13 @@ class Game extends React.Component {
   
   render() {
       return (
-        <div>
-
           <Field field={this.state.field} 
                  ball={this.state.ball} 
                  rocket={this.state.rocket.r} 
                  onMouseMove={this.handleMove}
-                 onTouchMove={this.handleMove} 
+                 onTouch={this.handleMove} 
                  player1={this.state.player1}
                  player2={this.state.player2} />
-        </div>
       );
   }
 }
