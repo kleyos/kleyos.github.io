@@ -3,7 +3,7 @@
 var obj = {
 	pinPong: {
 		name: 'React App - PinPong Game',
-		link: '\Items\new-pinpong-app\index.html',
+		link: `\Items\\new-pinpong-app\\\index.html`,
 		secondName: 'The PinPong Game',
 		description: 'My training project via ReactJS. Welcome to play!',
 		img: '',
@@ -12,7 +12,7 @@ var obj = {
 
 	theEarth: {
 		name: 'Landing page "The Earth"',
-		link: '\Items\Landing\index.html',
+		link: '\Items\\Landing\\index.html',
 		secondName: 'My diploma project of the courses "I am a Frontend Developer". The main point of the landing is opening of the alien supermarket.',
 		description: 'Technology stack: Bootstrap 3, jQuery, Ajax, php script for sending e-mail. Check valid data. Adaptive design',
 		img: 'img/theEarth.png',
