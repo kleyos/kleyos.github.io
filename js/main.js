@@ -59,7 +59,7 @@ const obj = {
 		link: 'Items/new-pinpong-app/index.html',
 		secondName: 'The PinPong Game',
 		description: 'My training project via ReactJS. Welcome to play!',
-		img: '',
+		img: 'img/pinpong.png',
 		list: ['React JS', 'Vanila JS', 'ES6']
 	},
 
