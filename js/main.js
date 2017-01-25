@@ -1,7 +1,62 @@
 const obj = {
+	Schedule: {
+		name: 'React App - Schedule Time Sheet',
+		link: 'Items/Schedule/index.html',
+		secondName: 'Time Sheet. A component that will draw a weekly cycle' ,
+		description: `Project via ReactJS.
+					  Requirements: To write a component that will draw a weekly cycle (calendar for the week). 
+					Input data JSON 
+		<br><code>{<br>
+		 "mo": [
+		      {
+		        "bt": 240,
+		        "et": 779
+		      }
+		 ],<br>
+		 "tu": [
+		 ],<br>
+		 "we": [
+		 ],<br>
+		 "th": [
+		   {
+		  "bt": 240,
+		        "et": 779
+		   },
+		   {
+		  "bt": 1140,
+		        "et": 1319
+		   }
+		 ],<br>
+		 "fr": [
+		   {
+		  "bt": 660,
+		        "et": 1019
+		   }
+		 ],<br>
+		 "sa": [
+		      {
+		        "bt": 0,
+		        "et": 1439
+		      }
+		    ],<br>
+		 "su": []<br>
+		}</code> <br> 
+		The interval of the one cell is one hour. In JSON file pass 59 minutes. Sample:
+		Interval of hours 1:00 to 2:00 = 60 to 119 
+		Minute of the all day (0 - 1439). 
+		Also, the component must be clickable, that is to give the user the opportunity to select the desired interval 
+		(in this case are hours) and return json file in the same form as the input data(based on of the interval what 
+		selected by user). The selected cell is a darker color, than non-selected cell. Should be a possible to select 
+		the desired range holding the left button of the mouse. Selected range should become dark color. 
+		When we toggle click on the column "all day" all cells of the interval should become selected or non-selected. `,
+		img: 'img/Schedule.png',
+		list: ['React JS', 'Vanila JS', 'ES6']
+	},
+
+
 	pinPong: {
 		name: 'React App - PinPong Game',
-		link: '\Items\new-pinpong-app\index.html',
+		link: 'Items/new-pinpong-app/index.html',
 		secondName: 'The PinPong Game',
 		description: 'My training project via ReactJS. Welcome to play!',
 		img: '',
@@ -10,7 +65,7 @@ const obj = {
 
 	theEarth: {
 		name: 'Landing page "The Earth"',
-		link: '\Items\Landing\index.html',
+		link: 'Items/Landing/index.html',
 		secondName: 'My diploma project of the courses "I am a Frontend Developer". The main point of the landing is opening of the alien supermarket.',
 		description: 'Technology stack: Bootstrap 3, jQuery, Ajax, php script for sending e-mail. Check valid data. Adaptive design',
     	img: 'img/theEarth.png',
