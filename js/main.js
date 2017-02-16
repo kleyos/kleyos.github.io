@@ -51,7 +51,7 @@ const obj = {
 		When we toggle click on the column "all day" all cells of the interval should become selected or non-selected. 
 		<mark>Output object you can see in console</mark>`,
 		img: 'img/Schedule.png',
-		list: ['React JS', 'Redux', 'WebPack', 'Vanila JS', 'ES6']
+		list: ['React JS', 'Redux', 'WebPack', 'Vanilla JS', 'ES6']
 	},
 
 
