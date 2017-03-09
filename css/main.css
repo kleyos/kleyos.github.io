@@ -14,11 +14,15 @@ footer{
 	margin-top: 50px;
 	text-align: right;
 }
+.link{
+	text-align:center;
+}
 
 .item__link{
 	cursor: pointer;
 }
 
 .link__img{
-	width:100%;
+	max-width:80%;
+	
 }
