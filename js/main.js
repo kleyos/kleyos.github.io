@@ -1,10 +1,24 @@
 const obj = {
+	Gallery:{
+		name:'The Gallery',
+		link:'Items/Gallery/index.html',
+		secondName: ``,
+		description:`Project via ReactJS. <br>
+					 Requirements: To write a component using  fetch to get data and   
+					 show the gallery of pictures. Press any picture and show selected picture using 
+					 react-routing.`,
+		img: 'img/gallery.gif',
+		list:['React JS', 'Redux', 'Fetch API', 'React-Routing', 'WebPack', 'Vanilla JS', 'ES6']
+	},
+
+
 	Schedule: {
 		name: 'React App - Schedule Time Sheet',
 		link: 'Items/Schedule/index.html',
 		secondName: 'Time Sheet. A component that will draw a weekly cycle' ,
 		description: `Project via ReactJS.
-					  Requirements: To write a component that will draw a weekly cycle (calendar for the week). 
+					  Requirements: To write a component that will draw a weekly 
+					  cycle (calendar for the week). 
 					Input data JSON 
 		<br><code>{<br>
 		 "mo": [
