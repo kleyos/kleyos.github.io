@@ -5,7 +5,7 @@ var obj = {
 		name: 'The Gallery',
 		link: '#' /*'Items/Gallery/index.html'*/
 		, secondName: '',
-		description: 'Project via ReactJS. <br>\n\t\t\t\t\t Requirements: To write a component using  fetch to get data and   \n\t\t\t\t\t show the gallery of pictures. Press any picture and show selected picture using \n\t\t\t\t\t react-routing.',
+		description: 'Project via ReactJS. <br>\n\t\t\t\t\t Requirements: To write a component using  fetch to get data and   \n\t\t\t\t\t show the gallery of pictures. Press any picture and show selected picture using \n\t\t\t\t\t react-routing.<br>\n\t\t\t\t\t This project was built via React-Native too. You can see on my Github page',
 		img: 'img/gallery.gif',
 		list: ['React JS', 'Redux', 'Fetch API', 'React-Routing', 'WebPack', 'Vanilla JS', 'ES6']
 	},
