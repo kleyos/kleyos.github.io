@@ -3,8 +3,8 @@
 var obj = {
 	Gallery: {
 		name: 'The Gallery',
-		link: 'Items/Gallery/index.html',
-		secondName: '',
+		link: '#' /*'Items/Gallery/index.html'*/
+		, secondName: '',
 		description: 'Project via ReactJS. <br>\n\t\t\t\t\t Requirements: To write a component using  fetch to get data and   \n\t\t\t\t\t show the gallery of pictures. Press any picture and show selected picture using \n\t\t\t\t\t react-routing.',
 		img: 'img/gallery.gif',
 		list: ['React JS', 'Redux', 'Fetch API', 'React-Routing', 'WebPack', 'Vanilla JS', 'ES6']
