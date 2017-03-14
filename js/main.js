@@ -6,7 +6,8 @@ const obj = {
 		description:`Project via ReactJS. <br>
 					 Requirements: To write a component using  fetch to get data and   
 					 show the gallery of pictures. Press any picture and show selected picture using 
-					 react-routing.`,
+					 react-routing.<br>
+					 This project was built via React-Native too. You can see on my Github page`,
 		img: 'img/gallery.gif',
 		list:['React JS', 'Redux', 'Fetch API', 'React-Routing', 'WebPack', 'Vanilla JS', 'ES6']
 	},
