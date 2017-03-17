@@ -1,18 +1,4 @@
 const obj = {
-	Gallery:{
-		name:'The Gallery',
-		link:'#'/*'Items/Gallery/index.html'*/,
-		secondName: ``,
-		description:`Project via ReactJS. <br>
-					 Requirements: To write a component using  fetch to get data and   
-					 show the gallery of pictures. Press any picture and show selected picture using 
-					 react-routing.<br>
-					 This project was built via React-Native too. You can see on my Github page`,
-		img: 'img/gallery.gif',
-		list:['React JS', 'Redux', 'Fetch API', 'React-Routing', 'WebPack', 'Vanilla JS', 'ES6']
-	},
-
-
 	Schedule: {
 		name: 'React App - Schedule Time Sheet',
 		link: 'Items/Schedule/index.html',
@@ -69,7 +55,19 @@ const obj = {
 		list: ['React JS', 'Redux', 'WebPack', 'Vanilla JS', 'ES6']
 	},
 
-
+	Gallery:{
+		name:'The Gallery',
+		link:'#'/*'Items/Gallery/index.html'*/,
+		secondName: ``,
+		description:`Project via ReactJS. <br>
+					 Requirements: To write a component using  fetch to get data and   
+					 show the gallery of pictures. Press any picture and show selected picture using 
+					 react-routing.<br>
+					 This project was built via React-Native too. You can see on my Github page`,
+		img: 'img/gallery.gif',
+		list:['React JS', 'Redux', 'Fetch API', 'React-Routing', 'WebPack', 'Vanilla JS', 'ES6']
+	},
+	
 	pinPong: {
 		name: 'React App - PinPong Game',
 		link: 'Items/new-pinpong-app/index.html',

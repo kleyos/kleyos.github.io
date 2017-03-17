@@ -1,15 +1,6 @@
 'use strict';
 
 var obj = {
-	Gallery: {
-		name: 'The Gallery',
-		link: '#' /*'Items/Gallery/index.html'*/
-		, secondName: '',
-		description: 'Project via ReactJS. <br>\n\t\t\t\t\t Requirements: To write a component using  fetch to get data and   \n\t\t\t\t\t show the gallery of pictures. Press any picture and show selected picture using \n\t\t\t\t\t react-routing.<br>\n\t\t\t\t\t This project was built via React-Native too. You can see on my Github page',
-		img: 'img/gallery.gif',
-		list: ['React JS', 'Redux', 'Fetch API', 'React-Routing', 'WebPack', 'Vanilla JS', 'ES6']
-	},
-
 	Schedule: {
 		name: 'React App - Schedule Time Sheet',
 		link: 'Items/Schedule/index.html',
@@ -17,6 +8,15 @@ var obj = {
 		description: 'Project via ReactJS.\n\t\t\t\t\t  Requirements: To write a component that will draw a weekly \n\t\t\t\t\t  cycle (calendar for the week). \n\t\t\t\t\tInput data JSON \n\t\t<br><code>{<br>\n\t\t "mo": [\n\t\t      {\n\t\t        "bt": 240,\n\t\t        "et": 779\n\t\t      }\n\t\t ],<br>\n\t\t "tu": [\n\t\t ],<br>\n\t\t "we": [\n\t\t ],<br>\n\t\t "th": [\n\t\t   {\n\t\t  "bt": 240,\n\t\t        "et": 779\n\t\t   },\n\t\t   {\n\t\t  "bt": 1140,\n\t\t        "et": 1319\n\t\t   }\n\t\t ],<br>\n\t\t "fr": [\n\t\t   {\n\t\t  "bt": 660,\n\t\t        "et": 1019\n\t\t   }\n\t\t ],<br>\n\t\t "sa": [\n\t\t      {\n\t\t        "bt": 0,\n\t\t        "et": 1439\n\t\t      }\n\t\t    ],<br>\n\t\t "su": []<br>\n\t\t}</code> <br> \n\t\tThe interval of the one cell is one hour. In JSON file pass 59 minutes. Sample:\n\t\tInterval of hours 1:00 to 2:00 = 60 to 119 \n\t\tMinute of the all day (0 - 1439). \n\t\tAlso, the component must be clickable, that is to give the user the opportunity to select the desired interval \n\t\t(in this case are hours) and return json file in the same form as the input data(based on of the interval what \n\t\tselected by user). The selected cell is a darker color, than non-selected cell. Should be a possible to select \n\t\tthe desired range holding the left button of the mouse. Selected range should become dark color. \n\t\tWhen we toggle click on the column "all day" all cells of the interval should become selected or non-selected. \n\t\t<mark>Output object you can see in console</mark>',
 		img: 'img/Schedule.png',
 		list: ['React JS', 'Redux', 'WebPack', 'Vanilla JS', 'ES6']
+	},
+
+	Gallery: {
+		name: 'The Gallery',
+		link: '#' /*'Items/Gallery/index.html'*/
+		, secondName: '',
+		description: 'Project via ReactJS. <br>\n\t\t\t\t\t Requirements: To write a component using  fetch to get data and   \n\t\t\t\t\t show the gallery of pictures. Press any picture and show selected picture using \n\t\t\t\t\t react-routing.<br>\n\t\t\t\t\t This project was built via React-Native too. You can see on my Github page',
+		img: 'img/gallery.gif',
+		list: ['React JS', 'Redux', 'Fetch API', 'React-Routing', 'WebPack', 'Vanilla JS', 'ES6']
 	},
 
 	pinPong: {
