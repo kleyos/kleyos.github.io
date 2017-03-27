@@ -57,7 +57,7 @@ const obj = {
 
 	Gallery:{
 		name:'The Gallery',
-		link:'#'/*'Items/Gallery/index.html'*/,
+		link:'Items/Gallery/index.html',
 		secondName: ``,
 		description:`Project via ReactJS. <br>
 					 Requirements: To write a component using  fetch to get data and   
