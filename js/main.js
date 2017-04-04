@@ -1,7 +1,7 @@
 const obj = {
 	Schedule: {
 		name: 'React App - Schedule Time Sheet',
-		link: 'Items/Schedule/index.html',
+		link: 'items/Schedule/index.html',
 		secondName: 'Time Sheet. A component that will draw a weekly cycle' ,
 		description: `Project via ReactJS.
 					  Requirements: To write a component that will draw a weekly 
@@ -57,7 +57,7 @@ const obj = {
 
 	Gallery:{
 		name:'The Gallery',
-		link:'Items/Gallery/',
+		link:'items/Gallery/',
 		secondName: ``,
 		description:`Project via ReactJS. <br>
 					 Requirements: To write a component using  fetch to get data and   
@@ -70,7 +70,7 @@ const obj = {
 	
 	pinPong: {
 		name: 'React App - PinPong Game',
-		link: 'Items/new-pinpong-app/index.html',
+		link: 'items/new-pinpong-app/index.html',
 		secondName: 'The PinPong Game',
 		description: 'My training project via ReactJS. Welcome to play!',
 		img: 'img/pinpong.png',
@@ -79,7 +79,7 @@ const obj = {
 
 	theEarth: {
 		name: 'Landing page "The Earth"',
-		link: 'Items/Landing/index.html',
+		link: 'items/Landing/index.html',
 		secondName: 'My diploma project of the courses "I am a Frontend Developer". The main point of the landing is opening of the alien supermarket.',
 		description: 'Technology stack: Bootstrap 3, jQuery, Ajax, php script for sending e-mail. Check valid data. Adaptive design',
     	img: 'img/theEarth.png',
