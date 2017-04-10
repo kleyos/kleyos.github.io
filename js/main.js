@@ -1,4 +1,19 @@
 const obj = {
+	table:{
+		name:'React-Redux-Table-Component',
+		link:'items/table/',
+		secondName: `The table component with filtering, sorting, paging and acync functions`,
+		description:`Project via ReactJS. <br>
+					 Requirements: To write a table component which get data and   
+					 build the table. Table should be have additional abilities for users like sorting, 
+					 filtering and pagination. <br>
+					 When the user enters on the page he selects the dataset: small, large or onw.
+					 Then load data from the server and according to the data is constructed the table.</br>
+					 The user can click on the table line and see information in a block under the table`,
+		img: 'img/table.png',
+		list:['React JS', 'Redux', 'Fetch API', 'WebPack', 'Vanilla JS', 'ES6']
+	},
+	
 	Schedule: {
 		name: 'React App - Schedule Time Sheet',
 		link: 'items/Schedule/index.html',
@@ -60,7 +75,7 @@ const obj = {
 		link:'items/Gallery/',
 		secondName: ``,
 		description:`Project via ReactJS. <br>
-					 Requirements: To write a component using  fetch to get data and   
+					 Requirements: To write a component using  fetch() to get data and   
 					 show the gallery of pictures. Press any picture and show selected picture using 
 					 react-routing.<br>
 					 This project was built via React-Native too. You can see on my Github page`,
