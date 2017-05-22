@@ -69,7 +69,22 @@ const obj = {
 		img: 'img/Schedule.png',
 		list: ['React JS', 'Redux', 'WebPack', 'Vanilla JS', 'ES6']
 	},
-
+	starwars:{
+		name:'List of Star-Wars Personages',
+		link:'items/plastic-jam/',
+		secondName: `Using SWAPI`,
+		description:`The SPA via React/Redux. <br>
+					 Requirements: To write aa test site with a list of the Star Wars personages 
+					 from this https://swapi.co.   
+					 1. use any template; 
+					 2.add checkbox “like” to every row in your list. 
+					 Checkbox should save its state after page reloading;
+					 3. add animation (on your own);
+					 4. pass the validators’ tests without mistakes;
+					 5.deploy to any server;`,
+		img: '',
+		list:['React JS', 'Redux', 'Fetch API', 'WebPack', 'Vanilla JS', 'ES6']
+	},
 	Gallery:{
 		name:'The Gallery',
 		link:'items/Gallery/',
