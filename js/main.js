@@ -1,14 +1,26 @@
 const obj = {
+	chart:{
+		name:'React-Redux-Chart-Component',
+		link:'items/charts/',
+		secondName: `The chart component that showing analysis of the data`,
+		description:`Project based on React/Redux. <br>
+					 Requirements: The slider will give you the number of days 
+					 for which we need to show the analysis for. When we click on the buttons,<br>
+					 it will enable/disable the respective lines. For the sake of this task, you 
+					 can assume static data.`,
+		img: 'img/chart.png',
+		list:['React JS', 'Redux', 'WebPack', 'Vanilla JS', 'ES6', 'Charts']
+	},
 	table:{
 		name:'React-Redux-Table-Component',
 		link:'items/table/',
 		secondName: `The table component with filtering, sorting, paging and acync functions`,
-		description:`Project via ReactJS. <br>
-					 Requirements: To write a table component which get data and   
-					 build the table. Table should be have additional abilities for users like sorting, 
+		description:`Project via React/Redux/Routing. <br>
+					 Requirements: To write a table component which fetching data and   
+					 building the table. Table should have additional abilities for users like sorting, 
 					 filtering and pagination. <br>
-					 When the user enters on the page he selects the dataset: small, large or onw.
-					 Then load data from the server and according to the data is constructed the table.</br>
+					 When the user enters on the page he selects the dataset: small, large or own.
+					 Then data is loaded from the server and according to the data is constructed the table.</br>
 					 The user can click on the table line and see information in a block under the table`,
 		img: 'img/table.png',
 		list:['React JS', 'Redux', 'Fetch API', 'WebPack', 'Vanilla JS', 'ES6']

@@ -1,11 +1,19 @@
 'use strict';
 
 var obj = {
+	chart: {
+		name: 'React-Redux-Chart-Component',
+		link: 'items/charts/',
+		secondName: 'The chart component that showing analysis of the data',
+		description: 'Project based on React/Redux. <br>\n\t\t\t\t\t Requirements: The slider will give you the number of days \n\t\t\t\t\t for which we need to show the analysis for. When we click on the buttons,<br>\n\t\t\t\t\t it will enable/disable the respective lines. For the sake of this task, you \n\t\t\t\t\t can assume static data.',
+		img: 'img/chart.png',
+		list: ['React JS', 'Redux', 'WebPack', 'Vanilla JS', 'ES6', 'Charts']
+	},
 	table: {
 		name: 'React-Redux-Table-Component',
 		link: 'items/table/',
 		secondName: 'The table component with filtering, sorting, paging and acync functions',
-		description: 'Project via ReactJS. <br>\n\t\t\t\t\t Requirements: To write a table component which get data and   \n\t\t\t\t\t build the table. Table should be have additional abilities for users like sorting, \n\t\t\t\t\t filtering and pagination. <br>\n\t\t\t\t\t When the user enters on the page he selects the dataset: small, large or onw.\n\t\t\t\t\t Then load data from the server and according to the data is constructed the table.</br>\n\t\t\t\t\t The user can click on the table line and see information in a block under the table',
+		description: 'Project via React/Redux/Routing. <br>\n\t\t\t\t\t Requirements: To write a table component which fetching data and   \n\t\t\t\t\t building the table. Table should have additional abilities for users like sorting, \n\t\t\t\t\t filtering and pagination. <br>\n\t\t\t\t\t When the user enters on the page he selects the dataset: small, large or own.\n\t\t\t\t\t Then data is loaded from the server and according to the data is constructed the table.</br>\n\t\t\t\t\t The user can click on the table line and see information in a block under the table',
 		img: 'img/table.png',
 		list: ['React JS', 'Redux', 'Fetch API', 'WebPack', 'Vanilla JS', 'ES6']
 	},
